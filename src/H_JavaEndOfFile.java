@@ -1,6 +1,11 @@
+import java.io.*;
 import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
 
-public class H_JavaEndOfFile {
+public class Solution {
+
 
     public static void main(String[] args) {
         
@@ -13,7 +18,5 @@ public class H_JavaEndOfFile {
             System.out.println(i + " " + s);
             i++;
         } 
-
-        scan.close();
     }
 }
