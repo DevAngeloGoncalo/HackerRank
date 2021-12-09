@@ -14,5 +14,7 @@ public class H_JavaEndOfFile {
             System.out.println(i + " " + s);
             i++;
         } 
+
+        scan.close();
     }
 }
