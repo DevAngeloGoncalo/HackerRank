@@ -1,8 +1,4 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class I_JavaStaticInitializerBlock {
 static int B, H;
@@ -18,7 +14,8 @@ static {
     } else {
         System.out.println("java.lang.Exception: Breadth and height must be positive");
         flag = false;
-    }   
+    }  
+    scan.close(); 
 }
 
 public static void main(String[] args){
